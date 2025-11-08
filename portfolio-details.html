@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Danjel Ramku</title>
+  <meta content="Software Development and Computer Engineering Projects" name="description">
+  <meta content="software development, computer engineering, ASP.NET MVC, AI/ML" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/profile.png" alt="Danjel Ramku" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Danjel Ramku</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="mailto:danjel.ramku@gmail.com" class="email"><i class="bi bi-envelope"></i></a>
+      <a href="https://github.com/YourGithub" class="github"><i class="bi bi-github"></i></a>
+      <a href="https://linkedin.com/in/YourLinkedIn" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0" id="project-title">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center" id="project-images">
+                <!-- Images will be loaded here dynamically -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul id="project-info">
+                <!-- Project info will be loaded here dynamically -->
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 id="project-name">Project Name</h2>
+              <p id="project-description">Project description</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Danjel Ramku</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Dynamic Project Loading Script -->
+  <script>
+    // Project data
+    const projects = {
+      'hotel': {
+        title: 'Hotel Management System',
+        name: 'Hotel Management System',
+        description: 'A comprehensive software engineering project developed at Epoka University using ASP.NET MVC and SQL Server. This system provides complete hotel management functionality with role-based access control including Admin, Manager, Receptionist, House Keeper, and User roles. The project includes extensive documentation with all required diagrams, backend testing, and features room booking, customer management, and administrative controls. Developed with C# .NET for backend, and CSS, HTML, JavaScript for frontend, along with API integration.',
+        category: 'Software Engineering',
+        technologies: 'ASP.NET MVC, C# .NET, SQL Server, CSS, HTML, JavaScript, API',
+        date: '2025',
+        institution: 'Epoka University',
+        images: [
+          'assets/img/portfolio/hotel-management-s.png',
+          'assets/img/portfolio/hotel-management-s1.png',
+          'assets/img/portfolio/hotel-management-s2.png',
+          'assets/img/portfolio/hotel-management-s3.png'
+        ]
+      },
+      'user-service': {
+        title: 'User Service Management',
+        name: 'User Service Management',
+        description: 'A comprehensive user and service management system built during internship at One Albania (2024-2025) using ASP.NET MVC and SQL Server. The system allows administrators to add services offered by the company and register users who receive various services. For each created user, an account is automatically generated using their email and a password format (characters before @ +123!). Users can view their acquired services, expiration dates, and status (active/expired). Built with MVC architecture, C# .NET, and SQL Server.',
+        category: 'Software Engineering',
+        technologies: 'ASP.NET MVC, C# .NET, SQL Server',
+        date: '2024-2025',
+        institution: 'One Albania',
+        images: [
+          'assets/img/portfolio/one1.png',
+          'assets/img/portfolio/one2.png',
+          'assets/img/portfolio/one3.png'
+        ]
+      },
+      'robot-game': {
+        title: 'Robotic Arm Control System',
+        name: 'Robotic Arm Control System',
+        description: 'A Python-based maze game developed during Epoka Bootcamp in 2024. This project involves a robot navigating through multiple levels with various movements and obstacles. The game features level progression, obstacle avoidance mechanics, and interactive gameplay elements. Developed using Python programming language with game development principles including character movement, collision detection, and level design.',
+        category: 'Game Development',
+        technologies: 'Python, Game Development',
+        date: '2024',
+        institution: 'Epoka University Bootcamp',
+        images: [
+          'assets/img/portfolio/robot1.png',
+          'assets/img/portfolio/robot2.png',
+        ]
+      },
+      'web-management': {
+        title: 'Web Management System',
+        name: 'Web Management System',
+        description: 'A web-based management system developed at Epoka University for Web Technologies course in 2024. This project features a different architecture than the MVC approach, utilizing API integration where the frontend is implemented with JavaScript, CSS, HTML and the backend with C# .NET. The system maintains similar functionality but features an enhanced, more visually appealing homepage design. It provides comprehensive business management functionalities including inventory, sales, and customer relations management.',
+        category: 'Software Engineering',
+        technologies: 'C# .NET, SQL Server, JavaScript, CSS, HTML, API',
+        date: '2024',
+        institution: 'Epoka University',
+        images: [
+          'assets/img/portfolio/web1.png',
+          'assets/img/portfolio/web2.png',
+          'assets/img/portfolio/web3.png',
+          'assets/img/portfolio/web4.png',
+          'assets/img/portfolio/web5.png',
+          'assets/img/portfolio/web6.png',
+          'assets/img/portfolio/web7.png',
+          'assets/img/portfolio/web8.png'
+        ]
+      },
+      'rreze-antalya': {
+        title: 'Rreze Antalya Travel Platform',
+        name: 'Rreze Antalya Travel Platform',
+        description: 'A comprehensive travel website for Antalya region developed in 2025 using PHP, CSS, HTML, JavaScript, and MySQL with XAMPP. The platform serves for adding and organizing tours, featuring a main administrator who adds tours with descriptions, photos, and appropriate prices, and manages sales through a dedicated dashboard. Users can browse the website to purchase tours, requiring sign-up and login to complete purchases. All purchase activities are recorded and managed through the admin dashboard and stored in the database.',
+        category: 'Web Development',
+        technologies: 'PHP, CSS, HTML, JavaScript, MySQL, XAMPP',
+        date: '2025',
+        institution: 'Personal Project',
+        images: [
+          'assets/img/portfolio/antalya1.png',
+          'assets/img/portfolio/antalya2.png',
+          'assets/img/portfolio/antalya3.png',
+          'assets/img/portfolio/antalya4.png',
+          'assets/img/portfolio/antalya5.png',
+          'assets/img/portfolio/antalya6.png',
+          'assets/img/portfolio/antalya7.png',
+          'assets/img/portfolio/antalya8.png',
+          'assets/img/portfolio/antalya9.png',
+          'assets/img/portfolio/antalya10.png'
+        ]
+      },
+      'iliryan-tv': {
+        title: 'Iliryan TV News Platform',
+        name: 'Iliryan TV News Platform',
+        description: 'A television website developed in 2025 using PHP, CSS, HTML, JavaScript, XAMPP, and MySQL. The platform serves for publishing real-time news updates, featuring an administrator with a personalized dashboard to add news with descriptions, photos, and make updates regarding shows and matches broadcasted on the television station. The admin can manage all content, make modifications, and publish announcements directly through the dashboard interface.',
+        category: 'Web Development',
+        technologies: 'PHP, CSS, HTML, JavaScript, MySQL, XAMPP',
+        date: '2025',
+        institution: 'Personal Project',
+        images: [
+          'assets/img/portfolio/iliryan1.png',
+          'assets/img/portfolio/iliryan2.png',
+          'assets/img/portfolio/iliryan3.png',
+          'assets/img/portfolio/iliryan4.png',
+          'assets/img/portfolio/iliryan5.png',
+          'assets/img/portfolio/iliryan6.png',
+          'assets/img/portfolio/iliryan7.png',
+          'assets/img/portfolio/iliryan8.png',
+          'assets/img/portfolio/iliryan9.png',
+          'assets/img/portfolio/iliryan10.png'
+        ]
+      }
+    };
+
+    // Get project from URL parameter
+    function getProjectFromURL() {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get('project') || 'hotel'; // Default to hotel if no parameter
+    }
+
+    // Load project data
+    function loadProject() {
+      const projectId = getProjectFromURL();
+      const project = projects[projectId];
+
+      if (!project) {
+        console.error('Project not found');
+        return;
+      }
+
+      // Update page title
+      document.getElementById('project-title').textContent = project.title;
+      document.title = project.title + ' - Danjel Ramku';
+
+      // Update project name and description
+      document.getElementById('project-name').textContent = project.name;
+      document.getElementById('project-description').textContent = project.description;
+
+      // Update project info
+      const projectInfoHTML = `
+        <li><strong>Category</strong>: ${project.category}</li>
+        <li><strong>Technologies</strong>: ${project.technologies}</li>
+        <li><strong>Project date</strong>: ${project.date}</li>
+        <li><strong>Institution</strong>: ${project.institution}</li>
+      `;
+      document.getElementById('project-info').innerHTML = projectInfoHTML;
+
+      // Update images
+      const imagesHTML = project.images.map(img => `
+        <div class="swiper-slide">
+          <img src="${img}" alt="${project.name}">
+        </div>
+      `).join('');
+      document.getElementById('project-images').innerHTML = imagesHTML;
+
+      // Reinitialize Swiper after loading images
+      setTimeout(() => {
+        if (window.Swiper) {
+          const swiperEl = document.querySelector('.portfolio-details-slider');
+          if (swiperEl && swiperEl.swiper) {
+            swiperEl.swiper.update();
+          }
+        }
+      }, 100);
+    }
+
+    // Load project when page loads
+    document.addEventListener('DOMContentLoaded', loadProject);
+  </script>
+
+</body>
+
+</html>
